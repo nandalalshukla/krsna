@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+}
+.calculator{
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.7);
+    background: rgba(0,0,0,0.5);
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+}
+input{
+    width: 280px;
+    padding: 24px;
+    margin: 10px;
+    background: rgba(255,255,255,0.3);
+    box-shadow: inset 0px 0px 8px rgba(0,0,0,0.5);
+    font-size: 65px;
+    text-align: right;
+    color: #fff;
+    border: splid 2px rgba(0,0,0,0.3);
+    border-radius:15px;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+
+
+}
+.buttons{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    row-gap: 5px;
+}
+button{
+    width:60px;
+    height:60px;
+    color: #fff;
+    background: rgba(0,0,0,0.7);
+    font-size: 25px;
+    cursor: pointer;
+    border: solid 1px rgba(255,255,255,0.3);
+    border-radius: 17px;
+    text-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+}
+.ac, .del
+{
+    font-size: 20px;
+
+}
+button:hover{
+    color: #fff;
+    background: #f67c14;
+    border: solid 1px rgba(255,255,255,0.3);
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+}
+.eql{
+    background-color: #f67c14;
+}
+
+
+
